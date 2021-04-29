@@ -1,0 +1,296 @@
+@media only screen and (max-width:1490px){
+    .wrap{
+        width: 100% !important;
+        max-width: none;
+    }
+    
+}
+@media only screen and (max-width:1169px) {
+    .header__content-logo{
+        margin-right: 10px;
+    }
+    .footer-container,
+    .header__content-container,
+    .header__navbar-background{
+        padding: 0 20px;
+    }
+    .main__slide-header-container{
+        height: auto;
+    }
+    .btn-slide-logo-next{
+        left: calc(100% - 30px);
+    }
+    .btn-slide-logo-prev{
+        left: calc(30px);
+    }
+    .main__slide-logo-container{
+        margin-top: -26px;
+    }
+    .main__slide-product{
+        padding: 0 20px;
+    }
+    .main__content{
+        padding: 0 40px;
+    }
+    .footer{
+        padding: 40px;
+    }
+    .header__content-container-left{
+        width: 50%;;
+        
+    }
+    
+
+}
+@media (max-width:999px) {
+    .footer-body-about{
+        max-width: none;
+    }
+    .header__content-item-img{
+        margin-left: 5px;
+    }
+    .header__content-input>input{
+        width: 190px;
+        margin-left: 10px;
+    }
+    .form-select,
+    .header__navbar-title-content,
+    .header__navbar-content .nav-link {
+        font-size: 1.3rem;
+        padding: 0px 4px;
+    }
+    .header__navbar-slection>select{
+        width: 71px;
+    }
+    .header__content-item {
+        margin-left: 10px;
+    }
+    .footer-body-item{
+        margin-left: 0;
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    .btn-slide-product-prev{
+        left: calc(43% + 5px);
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:999px) {
+    
+}
+
+@media (max-width:768px) {
+    
+    .header__navbar-title-content{
+        margin: 0;
+    }
+    
+    .btn-navbar__header-mobile{
+        display: block;
+    }
+    .navbar-pc{
+        display: none;
+    }
+    .header__content-input{
+        display: none;
+    }
+    .header__content-input-mobile{
+        display: block;
+        max-width: none;
+        padding-top: 10px;
+    }
+    .header__content-container-left{
+        width: auto !important;
+    }
+    .header__content-container{
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header__content-input-mobile>button{
+        height: 42px;
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    .header__content-input-mobile>input{
+        width: 100%;
+        margin: 0;
+    }
+    .footer-body-item{
+        margin-left: 0;
+    }
+    .form-select,
+    .header__navbar-title-content,
+    .header__navbar-content{
+        font-size: 1.1rem;
+    }
+    .header__navbar-slection{
+        max-width: 144px;
+    }
+    .header__navbar-title{
+        margin-right: 0;
+    }
+    .header__navbar-content .nav-link{
+        padding: 0 6px;
+    }
+    .footer-body-about{
+        max-width: none;
+    }
+    .footer-left-content {
+        font-size: 1.2rem;
+    }
+    .header__content-input-mobile{
+        position: relative;
+    }
+    .footer-body{
+        padding-top: 84px;
+    }
+    .footer-header{
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .footer-body>div{
+        padding-left: 17px !important;
+        margin-bottom: 10px;
+    }
+    .footer-header-item{
+        margin-bottom: 20px;
+    }
+    .header__mobile-container:hover .header__container-navbar-mobile{
+        display: block !important;
+        animation: leftToRight ease-in .5s;
+    }
+    .header__mobile-container:hover a{
+        animation: leftToRight ease-in .7s;
+    }
+    .header__navbar-container{
+        display: none;
+    }
+    .header__navbar-title-mobile {
+        display: block;
+        margin: auto;
+    }
+    .header__navbar-title-content{
+        font-size: 1.6rem;
+    }
+    .header__navbar-background{
+        height: 30px;
+    }
+    .header__content-item{
+        margin: 0 12px;
+    }
+}
+
+
+
+@media only screen and (max-width:676px) {
+    
+    .main__content-left-container{
+        margin-top: 12px;
+    }
+    .header__content-input-mobile>input{
+        width: 92%;
+    }
+    .btn-slide-prev{
+        left: 40px;
+    }
+    .btn-slide-next{
+        left: calc(100% - 40px);
+    }
+    .btn-slide-product-prev{
+        left: 40%;
+    }
+    .header__navbar-title-content{
+        font-size: 1.2rem;
+    }
+    .btn-slide-prev{
+        top: 37%;
+    }
+    .btn-slide-next{
+        top: 37%;
+    }
+}
+@media only screen and (max-width:570px) {
+    .header__content-item .header__content-item-content{
+        display: none;
+    }
+    .main__content-left-item{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:479px){
+    
+    .footer-container, .header__content-container, .header__navbar-background {
+        padding: 0px 20px;
+    }
+    .header__navbar-title{
+        display: none;
+    }
+    .header__navbar-title-mobile{
+        display: block;
+    }
+    .header__navbar-background{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .header__navbar-slection{
+        max-width: 93px;
+        margin-right: -21px;
+    }
+    .header__navbar-title-content{
+        margin: 0;
+    }
+    .header__content-logo>img{
+        margin: 10px 0;
+    }
+    .cart-empty{
+        width: 246px;
+    }
+    .header__content-container-right{
+        width: auto;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .header__footer-navbar ul{
+        justify-content: space-around;
+    }
+    .header__content-item-name{
+        font-size: 1.3rem;
+    }
+    .header__footer-navbar{
+        margin-top: 10px;
+    }
+    .header__footer-navbar .nav-link{
+        font-size: 1.3rem;
+    }
+    .btn-slide-product-prev {
+        left: 33%;
+    }
+    .btn-slide-product-next {
+        left: 62%;
+    }
+    .main__discount-container{
+        padding: 8px 20px 0;
+    }
+    .btn-slide{
+        width: 30px;
+        height: 30px;
+    }
+    .btn-slide svg{
+        width: 16px;
+        height: 16px;
+    }
+}
+@media only screen and (min-width:361px) and (max-width:400px) {
+
+    
+}
+@media only screen and (max-width:321px){
+    .header__content-item{
+        margin: 0 0 0 10px;
+    }
+}

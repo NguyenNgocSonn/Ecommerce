@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#20232c;
+    --orange-color:#ff5b00;
+    --text-color:#333333
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.btn-slide{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    z-index: 2;
+}
+.product-label{
+    text-transform: uppercase;
+    margin-left: -2px;
+    padding:5px 11px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 3px;
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+}
+@keyframes leftToRight{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

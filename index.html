@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./asset/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/index.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="container-fluid header__navbar-background">
+                <div class="container header__navbar-container">
+                    <div class="header__navbar-content">
+                        <nav class="nav">
+                            <a class="nav-link" aria-current="page" href="#">Payment</a>
+                            <a class="nav-link" href="#">Delivery</a>
+                            <a class="nav-link" href="#">Our Blog</a>
+                            <a class="nav-link" href="#">Contact us</a>
+                        </nav>
+                    </div>
+                    <div class="header__navbar-title">
+                        <p class="header__navbar-title-content">New autumn offer, to the <span
+                                style="color: var(--orange-color);">50% OFF</span>.. Shop Now!</p>
+                    </div>
+                    
+                    <div class="header__nav-dropdown">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0  dropdown-fix" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fix--padding" style="margin-right: 25px;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./asset/img/flag.png" alt="" style="position: relative;top: -2px;left: -3px;">
+                                <span class="fix-font-size-drop">English</span>
+                                </a>
+                                <ul class="dropdown-menu fix--padding" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fix--padding" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="fix-font-size-drop">US Dollars ($)</span>
+                                </a>
+                                <ul class="dropdown-menu fix--padding"style="left: -70px;" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header__navbar-title header__navbar-title-mobile">
+                    <p class="header__navbar-title-content">New autumn offer, to the 
+                        <span style="color: var(--orange-color);">
+                            50% OFF
+                        </span>.. Shop Now!
+                    </p>
+                </div>
+            </div>
+            <div class="container header__content-container">
+                <div class="header__content-container-left">
+                    <div class="header__content-logo">
+                        <img src="./asset/img/m-yntra.png" alt="logo">
+                        <div class="header__content-logo-point"></div>
+                    </div>
+                    <div class="header__content-input">
+                        <input class="input-search" type="text" placeholder="Search desired products..">
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class=" header__content-container-right">
+                    <div class="header__content-item header__content-item-img-left">
+                        <div class="header__content-item-img ">
+                            <img src="./asset/img/heart.png" alt="trái tim">
+                        </div>
+                        <div class="header__content-item-content">
+                            <p class="header__content-item-title">0 item(s)</p>
+                            <p class="header__content-item-name">Wishlist</p>
+                        </div>
+                    </div>
+                    <div class="header__content-item">
+                        <div class="header__content-item-img">
+                            <img src="./asset/img/forma-1.png" alt="Account">
+                        </div>
+                        <div class="header__content-item-content">
+                            <p class="header__content-item-title">Welcome!</p>
+                            <p class="header__content-item-name">My Account</p>
+                        </div>
+                        <div class="header__container-hover">
+                            <ul class="my-account">
+                                <li class="my-account-item"><a href="#">Action</a></li>
+                                <li class="my-account-item"><a href="#">Another action</a></li>
+                                <li class="my-account-item"><a href="#">Something else</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__content-item">
+                        <div class="header__content-item-img">
+                            <img src="./asset/img/icon.png" alt="Cart">
+                        </div>
+                        <div class="header__content-item-content">
+                            <p class="header__content-item-title">$0.00</p>
+                            <p class="header__content-item-name">My Cart</p>
+                        </div>
+                        <div class="header__container-hover">
+                            <ul class="my-cart">
+                                <li class="my-cart-item"><a href="#">Action</a></li>
+                                <li class="my-cart-item"><a href="#">Another action</a></li>
+                                <li class="my-cart-item"><a href="#">Something else</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 header__content-input header__content-input-mobile">
+                    <input class="input-search" type="text" placeholder="Search desired products.">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="header__footer-navbar bg-dark">
+                <nav class="navbar container justify-content-center navbar-pc" style="padding-top: 0;">
+                    <ul class="nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Women's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Men's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Best seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sale off</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__mobile-container">
+                    <button class="btn-navbar__header-mobile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
+                    <div class="header__container-navbar-mobile">
+                        <ul class="navbar-mobile-list">
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">WOMEN’S</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">MEN'S</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">ACCESSORIES</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">BEST SELLER</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">SALE OFF</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">Payment</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">Delivery</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">Our Blog</a></li>
+                            <li class="navbar-mobile-item"><a href="#" class="navbar-mobile-link">Contact us</a></li>
+                            <li class="navbar-mobile-item">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle navbar-mobile-btn-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Language
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-mobile" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="navbar-mobile-item">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle navbar-mobile-btn-dropdown" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Currency unit
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-mobile" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main__slide-header-container">
+                <div class="owl-carousel owl-theme slide-header">
+                    <div class="item">
+                        <img src="./asset/img/layer-37.png">
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/layer-37.png">
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/layer-37.png">
+                    </div>
+                    <div class="item">
+                        <img src="./asset/img/layer-37.png">
+                    </div>
+                </div>
+            </div>
+            <div class="main__slide-logo-container">
+                <div class="container slide-logo-container">
+                    <div class="owl-carousel owl-theme slide-logo">
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-22.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-23.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-24.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-25.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-26.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-27.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-23.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-24.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-25.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-26.png"></div>
+                        </div>
+                        <div class="item">
+                            <div style="width:100px"><img src="./asset/img/slide-logo/layer-27.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__slide-product">
+                <div class="main__slide-product-heading">
+                    <h3>#best sellers</h3>
+                </div>
+                <div class="container main__slide-product-container">
+                    <div class="owl-carousel owl-theme slide-product">
+                        
+                        <div class="item">
+                            <div class="item-product">
+                                <div
+                                    style="background-image: url('./asset/img/slide-product/layer-8.png'); height: 332px;">
+                                    <p class="product-label product-label-red">SOLD OUT</p>
+                                </div>
+                                <div class="product-content">
+                                    <h4 class="product-name">Ruched ruffle dress</h4>
+                                    <p class="product-price">$86.00</p>
+                                </div>
+                                <div class="product-hover">
+                                    <a href="#" class="product-add-cart">Add to card</a>
+                                    <div>
+                                        <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                            height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                        </svg>
+                                        <a href="#" style="margin-left: 15px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-9.png'); height: 332px;">
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">501 HIGH RISE SHORT</h4>
+                                        <p class="product-price">$54.69</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-11.png'); height: 332px;">
+                                        <p class="product-label product-label-trend">In trend</p>
+                                        <p class="product-label product-label-sale">-30%</p>
+                                        <p class="product-label product-label-new">New</p>
+
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">SUNDAY KIMONO ROMPER</h4>
+                                        <p class="product-price product-price-new">$129.99 <span
+                                                class="product-price product-price-old">$149.00</span></p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-10.png'); height: 332px;">
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">Ruched ruffle dress</h4>
+                                        <p class="product-price">$86.00</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-12.png'); height: 332px;">
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">OFF THE SHOULDER TOP</h4>
+                                        <p class="product-price">$39.00</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-8.png'); height: 332px;">
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">Ruched ruffle dress</h4>
+                                        <p class="product-price">$86.00</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-product">
+                                <div
+                                    style="background-image: url('./asset/img/slide-product/layer-8.png'); height: 332px;">
+                                </div>
+                                <div class="product-content">
+                                    <h4 class="product-name">Ruched ruffle dress</h4>
+                                    <p class="product-price">$86.00</p>
+                                </div>
+                                <div class="product-hover">
+                                    <a href="#" class="product-add-cart">Add to card</a>
+                                    <div>
+                                        <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                        </svg>
+                                        <a href="#" style="margin-left: 15px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__background">
+                <div class="main__background-wrap">
+                    <img style="width: 100%;" src="./asset/img/layer-28.png">
+                </div>
+            </div>
+
+            <div class="main__slide-product">
+                <div class="main__slide-product-heading">
+                    <h3>#trending items</h3>
+                </div>
+                <div class="container main__slide-product-container">
+                    <div class="owl-carousel owl-theme slide-product">
+                        <div class="item">
+                            <div class="item-product">
+                                <div
+                                    style="background-image: url('./asset/img/slide-product/layer-28.png'); height: 332px;">
+                                </div>
+                                <div class="product-content">
+                                    <h4 class="product-name">THE MARIGOLD CROP TOP</h4>
+                                    <p class="product-price">$76.07</p>
+                                </div>
+                                <div class="product-hover">
+                                    <a href="#" class="product-add-cart">Add to card</a>
+                                    <div>
+                                        <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                        </svg>
+                                        <a href="#" style="margin-left: 15px;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-29.png'); height: 332px;">
+                                        <p class="product-label product-label-new">New</p>
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">GRETCHEN MAXI DRESS</h4>
+                                        <p class="product-price">$145.22</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-30.png'); height: 332px;">
+                                        <p class="product-label product-label-trend">In trend</p>
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">CLASSIC HOODIE</h4>
+                                        <p class="product-price">$172.88</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-31.png'); height: 332px;">
+                                        <p class="product-label product-label-sale">-30%</p>
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">JACQUARD CAMO LOW CAP</h4>
+                                        <p class="product-price product-price-new">$58.41 <span
+                                                class="product-price product-price-old">$34.58</span></p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-32.png'); height: 332px;">
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">PADDED JACKET</h4>
+                                        <p class="product-price">$691.52</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                          
+                        </div>
+                        <div class="item">
+                         
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-12.png'); height: 332px;">
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">OFF THE SHOULDER TOP</h4>
+                                        <p class="product-price">$39.00</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                       
+                        </div>
+                        <div class="item">
+                                <div class="item-product">
+                                    <div
+                                        style="background-image: url('./asset/img/slide-product/layer-8.png'); height: 332px;">
+                                    </div>
+                                    <div class="product-content">
+                                        <h4 class="product-name">Ruched ruffle dress</h4>
+                                        <p class="product-price">$86.00</p>
+                                    </div>
+                                    <div class="product-hover">
+                                        <a href="#" class="product-add-cart">Add to card</a>
+                                        <div>
+                                            <svg id="tym-white" xmlns="http://www.w3.org/2000/svg" width="16"
+                                                height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                            <a href="#" style="margin-left: 15px;">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container main__content">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h2 class="main__content-heading">#MYNTRA.<span>fashion</span></h2>
+                    <p class="main__content-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco...
+                    </p>
+                    <h3 class="main__content-name">Henry John DOE <span style="color: #7d7e82; text-transform: none;">- CEO Myntra</span></h3>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 main__content-left-container">
+                    <a href="#" class="col-sm-6 col-md-6 col-lg-6 main__content-left-item">
+                        <h2 class="main__content-left-heading"><span
+                                style="font-weight: normal; color: var(--primary-color);">For </span>WOMEN’S</h2>
+                        <p class="main__content-left-content">let’s start and find your style..</p>
+                    </a>
+                    <a href="#" class="col-sm-6 col-md-6 col-lg-6 main__content-left-item">
+                        <h2 class="main__content-left-heading" style="margin-left: 14px;"><span
+                                style="font-weight: normal;color: var(--primary-color)">For </span>MEN’S</h2>
+                        <p class="main__content-left-content" style="margin-left: 15px;">discover new styles with us..</p>
+                    </a>
+                    <a href="#" class="col-sm-6 col-md-6 col-lg-6 main__content-left-item">
+                        <h2 class="main__content-left-heading" style="margin-top: 7px;">Accessories</span></h2>
+                        <p class="main__content-left-content">famous brands hand picked..</p>
+                    </a>
+                    <a href="#" class="col-sm-6 col-md-6 col-lg-6 main__content-left-item">
+                        <h2 class="main__content-left-heading" style="margin-top: 7px;margin-left: 15px;">Sale OFF</span></h2>
+                        <p class="main__content-left-content" style="margin-left: 16px;">limited time special prices..</p>
+                    </a>
+                </div>
+            </div>
+            <div class="main__discount">
+                <div class="main__discount-container">
+                    <h2 class="main__discount-heading">Get Discount 30% Off</h2>
+                    <p class="main__discount-content">Grab our discount and get notified about the latest news.
+                        No spam, we promice!</p>
+                    <div class="main__subcribe-form">
+                        <input type="text" placeholder="Write your email.." class="main__discount-input">
+                        <button class="main__discount-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div style="border-bottom: 1px solid rgba(32, 35, 44, .05);">
+                <div class="container footer-header">
+                    <div class="col-sm-6 col-md-6 col-lg-3 footer-header-item">
+                        <div class="footer-header-img">
+                            <img src="./asset/img/footer-img/layer-4.png">
+                        </div>
+                        <div class="footer-header-container">
+                            <a href="#" class="footer-header-heading">FREE SHIPPING </a>
+                            <p class="footer-header-content">Excepteur occaecat cupidatat</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 footer-header-item">
+                        <div class="footer-header-img" style="margin-top: 4px;
+                        margin-left: 5px;">
+                            <img src="./asset/img/footer-img/layer-5.png">
+                        </div>
+                        <div class="footer-header-container">
+                            <a href="#" class="footer-header-heading">Secure payment</a>
+                            <p class="footer-header-content">Excepteur occaecat cupidatat</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 footer-header-item">
+                        <div class="footer-header-img " style="margin: 2px 21px 0 9px;">
+                            <img src="./asset/img/footer-img/layer-6.png">
+                        </div>
+                        <div class="footer-header-container">
+                            <a href="" class="footer-header-heading"> 2 Years Warranty</a>
+                            <p class="footer-header-content">Excepteur occaecat cupidatat</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-3 footer-header-item">
+                        <div class="footer-header-img" style="margin: 4px 19px 0 15px;">
+                            <img src="./asset/img/footer-img/layer-7.png">
+                        </div>
+                        <div class="footer-header-container">
+                            <a href="#" class="footer-header-heading">Money back 30 days </a>
+                            <p class="footer-header-content">Excepteur occaecat cupidatat</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container footer-body">
+                <div class="col-sm-6 col-md-6 col-lg-5 col-xl-4 footer-body-about">
+                    <h3 class="footer-body-heading">#about</h3>
+                    <p class="footer-body-heading-content" style="margin-bottom: 15px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                    <p class="footer-body-heading-content">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 footer-body-item">
+                    <h3 class="footer-body-heading">#service</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">About us</a></li>
+                        <li class="footer-item"><a href="#">Terms & Conditions</a></li>
+                        <li class="footer-item"><a href="#">Privacy Policy</a></li>
+                        <li class="footer-item"><a href="#">Orders & Return</a></li>
+                        <li class="footer-item"><a href="#">Contact us</a></li>
+                        <li class="footer-item"><a href="#">Site map</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2 footer-body-item " style="padding-left: 17px;">
+                    <h3 class="footer-body-heading">#shopping</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">My Accout</a></li>
+                        <li class="footer-item"><a href="#">View Cart</a></li>
+                        <li class="footer-item"><a href="#">My Wishlist</a></li>
+                        <li class="footer-item"><a href="#">Track my order</a></li>
+                        <li class="footer-item"><a href="#">Shipping</a></li>
+                        <li class="footer-item"><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-2 footer-body-item" style="padding-left: 27px;">
+                    <h3 class="footer-body-heading">#info</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item"><a href="#">Product Recall</a></li>
+                        <li class="footer-item"><a href="#">Returns & Exchanges</a></li>
+                        <li class="footer-item"><a href="#">FAQ's</a></li>
+                        <li class="footer-item"><a href="#">Today Sales</a></li>
+                        <li class="footer-item"><a href="#">Reward Points</a></li>
+                        <li class="footer-item"><a href="#">Gift Certificates</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2 footer-body-item" style="padding-left: 37px;max-width: 225px;width: 100%;">
+                    <h3 class="footer-body-heading" >#contact</h3>
+                    <p class="footer-body-heading-content" style="margin-bottom: 25px;">
+                        5 Rilley Way, 30253 - Sydney, Australia
+                    </p>
+                    <p class="footer-body-heading-content" style="
+                    margin-bottom: 23px;"
+                >
+                        info@myntrashop.com
+                    </p>
+                    <p class="footer-body-heading-content" style="margin-bottom: 3px;">
+                        +(0) - 123.456.78.91
+                    </p>
+                    <p class="footer-body-heading-content">
+                        +(0) - 123.456.78.92
+                    </p>
+  
+                </div>
+            </div>
+        </footer>
+        <div class="footer-bottom">
+            <div class="container footer-container">
+                <div class="footer-left">
+                    <p class="footer-left-content">© All rights reserved, 2018 Myntra. Created by <a href="#" style="color: var(--text-color);">PogoWorks</a></p>
+                </div>
+                <ul class="footer-icon">
+                    <li class="footer-icon-item">
+                        <a href="">
+                            <i class="lni lni-facebook-filled"></i>
+                        </a>
+                    </li>
+                    <li class="footer-icon-item">
+                        <a href="">
+                            <i class="lni lni-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer-icon-item">
+                        <a href="">
+                            <i class="lni lni-twitter-original"></i>
+                        </a>
+                    </li>
+                    <li class="footer-icon-item">
+                        <a href="">
+                            <i class="lni lni-goodreads"></i>
+                        </a>
+                    </li>
+                    <li class="footer-icon-item">
+                        <a href="">
+                            <i class="lni lni-linkedin-original"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./asset/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
